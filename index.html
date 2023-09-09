@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e898176a52.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <div id="header">
+            <div class="container">
+                <nav class="logo1">
+                    <div class="logo"><span class="kundan1">K</span><p class="kundan">undan</p></div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    </div>
+                </nav>
+
+                <div class="header-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span class="india2">Kundan</span><br> Kumar<span class="india">India</span></h1>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1" data-aos="fade-right">
+                        <img src="img/photo_2023-09-07_18-01-41.jpg">
+                    </div>
+                    <div class="about-col-2" data-aos="fade-left">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('eduaction')">Eduaction</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Wab app Developement</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title" data-aos="fade-up-right">My Services</h1>
+                <div class="services-list">
+                    <div data-aos="fade-up-right">
+                        <i class="fas fa-code"></i><br>
+                        <h2>Web Development</h2>
+                        <p>I Offer Full stack(MERN) web development services.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div data-aos="zoom-out-up">
+                        <i class="fas fa-crop-alt"></i><br>
+                        <h2>UI/UX Design</h2>
+                        <p>I provide services in UI and UX Design.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div data-aos="fade-up-left">
+                        <i class="fa-brands fa-app-store"></i><br>
+                        <h2>Content Writing</h2>
+                        <p>I also provide Content Writing Services.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="portfolio">
+            <h1 class="sub-title mywork" data-aos="fade-up-right">My Work</h1>
+            <div class="work-list">
+                <div class="work" data-aos="fade-up-right">
+                    <img src="img\Screenshot 2023-09-07 180755.png">
+                    <div class="layer">
+                        <h3>Bubble Game</h3>
+                        <p>I have made a Bubble Game using HTML,CSS and JavaScript which you can enjoy in your free time. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-out-up">
+                    <img src="img\Screenshot 2023-09-07 180845.png">
+                    <div class="layer">
+                        <h3>Jio Cinema Clone</h3>
+                        <p>Jio Cinema Clone using pure HTML and CSS</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="fade-up-left">
+                    <img src="img\Screenshot 2023-09-07 181011.png">
+                    <div class="layer">
+                        <h3>StopWatch</h3>
+                        <p>StopWatch using HTML,CSS and JavaScript </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+
+
+        <div id="contact">
+            <div class="containers">
+                <div class="contect-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>kundanmagic821@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8210041854</p>
+                    <a href="img\resume.pdf" class="btn btn2">Downlode CV</a>
+                </div>
+                <div class="contect-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2 submit" onclick="myFunction()">Submit Now</button>
+                         <b id="demo" style="color: #ff004f;"></b>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; KundanKumar. All Right Reserved</p>
+        </div>
+</body>
+
+</html>
